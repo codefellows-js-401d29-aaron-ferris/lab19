@@ -15,20 +15,20 @@ For this lab assignment, we will be writing a Message Queue server that monitors
 
 ### Assignment - Message Queue Server and Logger
 
-* Create a message queue server
-* Initiate a queue called "files" that monitors "save" and "error" events
-* Initiate a queue called "database" that monitors "create", "read", "update", "delete" and "error" events
-* Create a logger application 
-* Connects to the "file" and "database" queues
-* Performs a custom `console.log()` on the events named above
+[x] Create a message queue server
+[x] Initiate a queue called "files" that monitors "save" and "error" events
+[x] Initiate a queue called "database" that monitors "create", "read", "update", "delete" and "error" events
+[x] Create a logger application 
+[x] Connects to the "file" and "database" queues
+[x] Performs a custom `console.log()` on the events named above
 
 ### Assignment 1 - File Writer (warm-up)
 This will be a repeat of the previous labs, this time using your new message queue server.
 
-* In the starter code, you'll once again find an `app.js` that reads and modifies a file.
-* On a successful write, publish a "save" event to the "file" queue
-* On error, publish an "error" event to the "file" queue
-* Modularize the file reader
+[x] In the starter code, you'll once again find an `app.js` that reads and modifies a file.
+[x] On a successful write, publish a "save" event to the "file" queue
+[x] On error, publish an "error" event to the "file" queue
+[x] Modularize the file reader
 
 ### Assignment 2 - API Server
 Alter your API server to publish events on all CRUD Operations
