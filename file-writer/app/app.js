@@ -1,5 +1,8 @@
 'use strict';
-
+/**
+ * Model Finder Middleware
+ * @module filewriter/app.js
+ */
 const Q = require('@nmq/q/client');
 const fs = require('fs');
 const util = require('util')
